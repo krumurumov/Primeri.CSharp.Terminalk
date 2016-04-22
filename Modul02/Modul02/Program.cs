@@ -34,9 +34,11 @@ namespace Modul02
 			a *= b; 
 			Console.WriteLine ( a );
 			Console.WriteLine ("\nИзползване на ++");
-			a ++; 
+			a++; 
 			Console.WriteLine ( a );
 
+			Console.WriteLine("Стандартно делене:" + (7 / 3). ToString()); //-> 2 (7/3=2,33)
+			Console.WriteLine("Остатък от делене:"+ (7 % 3). ToString()); //-> 1 (1/3=0,333)
 		}
 	}
 }
