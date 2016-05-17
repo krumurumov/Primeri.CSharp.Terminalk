@@ -61,10 +61,12 @@ namespace ReadFromCommandLine
 			 			aNumber = Convert.ToInt32(Console.ReadLine ());
 			 			Console.Write ("Моля въведете желания продукт: ");
 			 			aWord = (Console.ReadLine ());
-			 //			string custOrder = aNumber + " " + aWord; -> работи и така. явно не схващам нещо или не съм използвала очакваната функция...
+//			 			string custOrder = aNumber + " " + aWord; -> работи и така. явно не схващам нещо или не съм използвала очакваната функция...
 			 			string custOrder = aNumber.ToString() + " " + aWord;
 			 			Console.WriteLine ("\nВие поръчахте: "  + custOrder);
 			 			Console.WriteLine ("\nБрой символи в поръчката: "  + custOrder.Length);
+
 		}
+	
 	}
 }
